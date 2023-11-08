@@ -32,6 +32,10 @@ export const links = [
     name: "Rediger",
     href: "/dashboard/grupper/rediger",
   },
+  {
+    name: "Ny transaksjon",
+    href: "/dashboard/transaksjoner/ny",
+  },
 ];
 
 export const userNavigation = [

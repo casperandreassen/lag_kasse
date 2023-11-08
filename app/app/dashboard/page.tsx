@@ -11,6 +11,7 @@ import {
 } from "@heroicons/react/20/solid";
 import { BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { GroupDashboard } from "./components/group_dashboard";
+import Link from "next/link";
 
 const stats = [
   {
@@ -156,12 +157,12 @@ export default function Page() {
               <h2 className="text-base font-semibold leading-7 text-gray-900">
                 Nylige grupper
               </h2>
-              <a
+              <Link
                 href="/dashboard/grupper"
                 className="text-sm font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
               >
                 Se alle<span className="sr-only">, grupper</span>
-              </a>
+              </Link>
             </div>
             <ul
               role="list"
